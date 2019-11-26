@@ -250,3 +250,6 @@ db.<collectionName>.help() returns the coammdn to be run on the collection
 eg. db.users.help()
 
 to see the implementaion of the method ,just type the method without parenthesis.
+--------------the object id in mongo db is combination of following things
+4 byte timestamp+(3byte)machineid+(3bytep)processid+(3byte)counter)
+---the ids are genratd in driver and not in the server.
